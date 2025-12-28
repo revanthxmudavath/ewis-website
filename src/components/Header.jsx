@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { colors } from '../styles/GlobalStyles';
-import logoImage from '../assets/img.png';
+import logoImage from '../../assets/img.png';
 
 const HeaderWrapper = styled.header`
   background: rgba(255,255,255,0.05);
