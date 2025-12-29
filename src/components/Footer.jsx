@@ -94,7 +94,7 @@ function Footer() {
         </FooterGrid>
 
         <FooterBottom>
-          <p>© 2024 ALLSAT AI LLC. All rights reserved. </p>
+          <p>© 2025 ALLSAT AI LLC. All rights reserved. </p>
         </FooterBottom>
       </Container>
     </FooterWrapper>

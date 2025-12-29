@@ -116,7 +116,7 @@ function HowItWorks() {
               <StepNumber>3</StepNumber>
               <StepTitle>Actionable Insights</StepTitle>
               <StepText>
-                Presents results through dashboards, indicators, and alerts
+                Delivers decision-ready dashboards, indicators, and early-warning alerts
               </StepText>
             </FlowStep>
           </FlowSteps>

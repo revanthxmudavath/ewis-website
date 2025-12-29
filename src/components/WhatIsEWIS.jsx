@@ -31,6 +31,14 @@ const SectionSubtitle = styled.p`
   margin: 0 auto;
 `;
 
+const SectionSubExample = styled.p`
+  font-size: 15px;
+  color: ${colors.textSecondary};
+  max-width: 600px;
+  margin: 0 auto;
+  font-style: italic;
+`;
+
 const DataCards = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -84,6 +92,10 @@ function WhatIsEWIS() {
           <SectionSubtitle>
             An Early-Warning Intelligence System designed to identify land and environmental conditions that often appear before visible problems occur.
           </SectionSubtitle>
+          <br/>
+          <SectionSubExample>
+            Use Cases: Early vegetation stress, Land degradation patterns, Environmental Risk Indicators
+          </SectionSubExample>
         </SectionHeader>
 
         <DataCards>
@@ -97,19 +109,21 @@ function WhatIsEWIS() {
 
           <DataCard>
             <CardIcon />
+            <CardTitle>Built on Trust</CardTitle>
+            <CardText>
+              Clarity over complexity, responsible innovation, practical impact, and long-term partnership.
+            </CardText>
+          </DataCard>
+
+          <DataCard>
+            <CardIcon />
             <CardTitle>Why It Matters</CardTitle>
             <CardText>
               By focusing on early signals instead of late symptoms, EWIS supports proactive planning, risk reduction, and smarter resource decisions.
             </CardText>
           </DataCard>
 
-          <DataCard>
-            <CardIcon />
-            <CardTitle>Built on Trust</CardTitle>
-            <CardText>
-              Clarity over complexity, responsible innovation, practical impact, and long-term partnership.
-            </CardText>
-          </DataCard>
+          
         </DataCards>
       </Container>
     </Section>

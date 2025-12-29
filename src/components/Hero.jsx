@@ -108,6 +108,9 @@ function Hero() {
             <HeroDescription>
               EWIS analyzes satellite and environmental data to deliver early insights and alerts that help organizations anticipate change and make informed decisions.
             </HeroDescription>
+            <HeroDescription>
+              Designed for agriculture, land management, and early environmental risk detection.
+            </HeroDescription>
             <CTAButton href="https://allsatai-ewis.streamlit.app/" target="_blank" rel="noopener noreferrer">
               Launch Prototype Dashboard →
             </CTAButton>
@@ -129,7 +132,7 @@ function Hero() {
               </StatItem>
               <StatItem>
                 <StatLabel>Status</StatLabel>
-                <StatValue>Active</StatValue>
+                <StatValue>In Testing</StatValue>
               </StatItem>
             </StatGrid>
           </StatsVisual>

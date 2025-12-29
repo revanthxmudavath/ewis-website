@@ -80,6 +80,10 @@ function AboutAllsatAI() {
           <LeadText>
             ALLSAT AI delivers practical, affordable satellite and AI-driven intelligence to support better land, resource, and environmental decisions.
           </LeadText>
+          <LeadText>
+            EWIS is being developed through phased prototypes, applied testing, and 
+partner-driven pilots.
+          </LeadText>
 
           <MissionBox>
             <MissionTitle>Mission</MissionTitle>

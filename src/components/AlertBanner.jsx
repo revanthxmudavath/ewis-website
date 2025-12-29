@@ -23,7 +23,7 @@ function AlertBanner() {
   return (
     <BannerWrapper>
       <BannerText>
-        <strong>⚠ PROTOTYPE STATUS:</strong> The Early-Warning Intelligence System (EWIS) prototype is under development at ALLSAT AI and is currently being tested using simulated and publicly available data.
+        <strong>⚠ PROTOTYPE STATUS:</strong> The Early-Warning Intelligence System (EWIS) prototype is under development at ALLSAT AI and is currently being tested using simulated and publicly available data. Field pilots and partner collaborations are in planning.
       </BannerText>
     </BannerWrapper>
   );
