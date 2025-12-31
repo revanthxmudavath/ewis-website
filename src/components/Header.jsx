@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 import { colors } from '../styles/GlobalStyles';
 import logoImage from '../../assets/img.png';
+import { Link } from 'react-router-dom';
+
 
 const HeaderWrapper = styled.header`
   background: rgba(255,255,255,0.05);
@@ -48,6 +50,19 @@ const NavLink = styled.a`
   }
 `;
 
+const RouterNavLink = styled(Link)`
+  color: ${colors.text};
+  font-size: 16px;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+  cursor: pointer;
+  text-decoration: none;
+  
+  &:hover {
+    opacity: 1;
+  }
+`;
+
 const LogoSection = styled.div`
   display: flex;
   align-items: center;
@@ -75,7 +90,7 @@ function Header() {
         </LogoSection>
         <Nav>
           <NavLink href="https://allsatai.com/">ALLSAT AI</NavLink>
-          <NavLink href="#contact">Contact</NavLink>
+          <RouterNavLink to="/contact">Contact</RouterNavLink>
         </Nav>
       </Container>
     </HeaderWrapper>

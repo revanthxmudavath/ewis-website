@@ -54,7 +54,8 @@ const FooterLink = styled.a`
 
 const FooterBottom = styled.div`
   text-align: center;
-  padding-top: 30px;
+  padding-top: 20px;
+  
   border-top: 1px solid rgba(255,255,255,0.1);
   color: #7a8199;
   font-size: 14px;
@@ -64,7 +65,9 @@ function Footer() {
   return (
     <FooterWrapper id="contact">
       <Container>
+        
         <FooterGrid>
+          
           <FooterSection>
             <FooterTitle>ALLSAT AI LLC</FooterTitle>
             <FooterText>
@@ -92,8 +95,11 @@ function Footer() {
             </FooterLink>
           </FooterSection>
         </FooterGrid>
-
         <FooterBottom>
+          <p>EWIS prototype outputs are provided for evaluation and demonstration
+              purposes only and are not intended for operational, regulatory, or decision-making use.
+          </p>
+          <br/>
           <p>© 2025 ALLSAT AI LLC. All rights reserved. </p>
         </FooterBottom>
       </Container>

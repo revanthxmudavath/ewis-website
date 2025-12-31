@@ -2,10 +2,24 @@ import styled from 'styled-components';
 import { colors } from '../styles/GlobalStyles';
 
 const HeroSection = styled.section`
-  padding: 80px 0;
+  padding: 60px 0;
   background: linear-gradient(135deg, #1a1f3a 0%, #0a0e27 100%);
   border-bottom: 1px solid ${colors.border};
 `;
+
+const EvaluationBanner = styled.div`
+  display: inline-block;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.15);
+  color: ${colors.secondary};
+  font-size: 13px;
+  padding: 6px 14px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+`;
+
 
 const Container = styled.div`
   max-width: 1400px;
@@ -49,6 +63,7 @@ const HeroDescription = styled.p`
   line-height: 1.7;
 `;
 
+
 const CTAButton = styled.a`
   display: inline-block;
   padding: 16px 35px;
@@ -82,6 +97,14 @@ const StatItem = styled.div`
   padding: 20px;
   border-radius: 8px;
   border: 1px solid rgba(255,255,255,0.1);
+
+  &:first-child {
+    grid-column: span 2;
+  }
+
+  
+
+
 `;
 
 const StatLabel = styled.div`
@@ -102,8 +125,9 @@ function Hero() {
   return (
     <HeroSection>
       <Container>
-        <HeroContent>
+          <HeroContent>
           <HeroLeft>
+          <EvaluationBanner>Evaluation Prototype — Not Commercially Available</EvaluationBanner>    
             <HeroTitle>AI-driven satellite intelligence for earlier awareness</HeroTitle>
             <HeroDescription>
               EWIS analyzes satellite and environmental data to deliver early insights and alerts that help organizations anticipate change and make informed decisions.
@@ -111,6 +135,10 @@ function Hero() {
             <HeroDescription>
               Designed for agriculture, land management, and early environmental risk detection.
             </HeroDescription>
+            <HeroDescription style={{ fontWeight: 600, color: colors.secondary }}>
+            Evaluation-Ready Prototype
+          </HeroDescription>
+            
             <CTAButton href="https://allsatai-ewis.streamlit.app/" target="_blank" rel="noopener noreferrer">
               Launch Prototype Dashboard →
             </CTAButton>
@@ -120,11 +148,7 @@ function Hero() {
             <StatGrid>
               <StatItem>
                 <StatLabel>Data Sources</StatLabel>
-                <StatValue>Multiple</StatValue>
-              </StatItem>
-              <StatItem>
-                <StatLabel>Processing</StatLabel>
-                <StatValue>Real-time</StatValue>
+                <StatValue>Simulated and Publicly Available data</StatValue>
               </StatItem>
               <StatItem>
                 <StatLabel>Coverage</StatLabel>
