@@ -23,6 +23,22 @@ const Container = styled.div`
   align-items: center;
 `;
 
+const EvaluationBanner = styled.div`
+  display: inline-block;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.15);
+  color: ${colors.secondary};
+  font-size: 13px;
+  padding: 6px 14px;
+  border-radius: 6px;
+  gap: 30px;
+  margin-left: 90px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+`;
+
 const Logo = styled.div`
   font-size: 28px;
   font-weight: 800;
@@ -86,8 +102,11 @@ function Header() {
             src={logoImage}
             alt="ALLSAT AI Logo"
           />
+
+          
         
         </LogoSection>
+        <EvaluationBanner>Evaluation Prototype — Not Commercially Available</EvaluationBanner>
         <Nav>
           <NavLink href="https://allsatai.com/">ALLSAT AI</NavLink>
           <RouterNavLink to="/contact">Contact</RouterNavLink>

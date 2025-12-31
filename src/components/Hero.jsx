@@ -7,18 +7,7 @@ const HeroSection = styled.section`
   border-bottom: 1px solid ${colors.border};
 `;
 
-const EvaluationBanner = styled.div`
-  display: inline-block;
-  background: rgba(255,255,255,0.06);
-  border: 1px solid rgba(255,255,255,0.15);
-  color: ${colors.secondary};
-  font-size: 13px;
-  padding: 6px 14px;
-  border-radius: 6px;
-  margin-bottom: 16px;
-  text-transform: uppercase;
-  letter-spacing: 0.6px;
-`;
+
 
 
 const Container = styled.div`
@@ -127,7 +116,7 @@ function Hero() {
       <Container>
           <HeroContent>
           <HeroLeft>
-          <EvaluationBanner>Evaluation Prototype — Not Commercially Available</EvaluationBanner>    
+              
             <HeroTitle>AI-driven satellite intelligence for earlier awareness</HeroTitle>
             <HeroDescription>
               EWIS analyzes satellite and environmental data to deliver early insights and alerts that help organizations anticipate change and make informed decisions.
@@ -141,6 +130,7 @@ function Hero() {
             
             <CTAButton href="https://allsatai-ewis.streamlit.app/" target="_blank" rel="noopener noreferrer">
               Launch Prototype Dashboard →
+              <p><center>(Read-Only)</center></p>
             </CTAButton>
           </HeroLeft>
 

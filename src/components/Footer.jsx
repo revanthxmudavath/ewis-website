@@ -100,7 +100,7 @@ function Footer() {
               purposes only and are not intended for operational, regulatory, or decision-making use.
           </p>
           <br/>
-          <p>© 2025 ALLSAT AI LLC. All rights reserved. </p>
+          <p>© ALLSAT AI LLC 2025. All rights reserved. </p>
         </FooterBottom>
       </Container>
     </FooterWrapper>
