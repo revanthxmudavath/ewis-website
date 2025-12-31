@@ -84,16 +84,6 @@ function Footer() {
               (503) 415-9855
             </FooterLink>
           </FooterSection>
-
-          <FooterSection>
-            <FooterTitle>Connect</FooterTitle>
-            <FooterLink href="https://allsatai.com" target="_blank" rel="noopener noreferrer">
-              www.allsatai.com
-            </FooterLink>
-            <FooterLink href="https://allsatai-ewis.streamlit.app/" target="_blank" rel="noopener noreferrer">
-              EWIS Prototype
-            </FooterLink>
-          </FooterSection>
         </FooterGrid>
         <FooterBottom>
           <p>EWIS prototype outputs are provided for evaluation and demonstration

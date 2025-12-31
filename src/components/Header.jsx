@@ -108,7 +108,6 @@ function Header() {
         </LogoSection>
         <EvaluationBanner>Evaluation Prototype — Not Commercially Available</EvaluationBanner>
         <Nav>
-          <NavLink href="https://allsatai.com/">ALLSAT AI</NavLink>
           <RouterNavLink to="/contact">Contact</RouterNavLink>
         </Nav>
       </Container>
