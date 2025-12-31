@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 import { colors } from '../styles/GlobalStyles';
+import { Link } from 'react-router-dom';
 
 const ContactSection = styled.section`
-  padding: 100px 0;
+  padding: 90px 0;
   background: linear-gradient(135deg, #1a1f3a 0%, #0a0e27 100%);
   min-height: 100vh;
 `;
@@ -11,6 +12,21 @@ const Container = styled.div`
   max-width: 900px;
   margin: 0 auto;
   padding: 0 40px;
+`;
+
+const BackButton = styled(Link)`
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  color: ${colors.textSecondary};
+  text-decoration: none;
+  margin-bottom: 20px;
+  transition: opacity 0.2s ease;
+
+  &:hover {
+    opacity: 0.85;
+  }
 `;
 
 const HeaderBlock = styled.div`
@@ -136,6 +152,9 @@ function ContactPage() {
   return (
     <ContactSection>
       <Container>
+        <BackButton to="/">
+        ← Back to Home
+        </BackButton>
         <HeaderBlock>
           <Title>Contact EWIS Team</Title>
           <Subtitle>
